@@ -9,7 +9,7 @@ namespace SuperAdventure
         {
             InitializeComponent();
 
-       
+
             _player = new Player(10, 10, 20, 0, 1);
 
 
@@ -20,6 +20,9 @@ namespace SuperAdventure
 
         }
 
-      
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
