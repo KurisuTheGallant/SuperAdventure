@@ -2,6 +2,8 @@
 {
     partial class SuperAdventure
     {
+        private const string V = "Select Action";
+
         /// <summary>
         ///  Required designer variable.
         /// </summary>
@@ -124,12 +126,11 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(587, 531);
+            label5.Location = new Point(590, 531);
             label5.Name = "label5";
             label5.Size = new Size(114, 25);
             label5.TabIndex = 8;
             label5.Text = "Select Action";
-            label5.Click += label5_Click;
             // 
             // cboWeapons
             // 
@@ -155,6 +156,7 @@
             btnUseWeapon.TabIndex = 11;
             btnUseWeapon.Text = "Use";
             btnUseWeapon.UseVisualStyleBackColor = true;
+            btnUseWeapon.Click += btnUseWeapon_Click;
             // 
             // btnUsePotion
             // 
@@ -164,6 +166,7 @@
             btnUsePotion.TabIndex = 12;
             btnUsePotion.Text = "Use";
             btnUsePotion.UseVisualStyleBackColor = true;
+            btnUsePotion.Click += btnUsePotion_Click;
             // 
             // btnNorth
             // 
@@ -173,6 +176,7 @@
             btnNorth.TabIndex = 13;
             btnNorth.Text = "North";
             btnNorth.UseVisualStyleBackColor = true;
+            btnNorth.Click += btnNorth_Click;
             // 
             // btnEast
             // 
@@ -182,6 +186,7 @@
             btnEast.TabIndex = 14;
             btnEast.Text = "East";
             btnEast.UseVisualStyleBackColor = true;
+            btnEast.Click += btnEast_Click;
             // 
             // btnSouth
             // 
@@ -191,6 +196,7 @@
             btnSouth.TabIndex = 15;
             btnSouth.Text = "South";
             btnSouth.UseVisualStyleBackColor = true;
+            btnSouth.Click += btnSouth_Click;
             // 
             // btnWest
             // 
@@ -200,6 +206,7 @@
             btnWest.TabIndex = 16;
             btnWest.Text = "West";
             btnWest.UseVisualStyleBackColor = true;
+            btnWest.Click += btnWest_Click;
             // 
             // rtbLocation
             // 
