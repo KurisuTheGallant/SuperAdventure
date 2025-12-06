@@ -287,6 +287,7 @@
             Controls.Add(label1);
             Name = "SuperAdventure";
             Text = "MyGame";
+            FormClosing += SuperAdventure_FormClosing;
             ((System.ComponentModel.ISupportInitialize)dgvInventory).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvQuests).EndInit();
             ResumeLayout(false);
